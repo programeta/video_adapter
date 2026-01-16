@@ -1,0 +1,11 @@
+Package: video-adapter
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, ffmpeg
+Maintainer: Programeta <programeta@gmail.com>
+Description: Herramientas de gestion para videos
+ Conjunto de scripts en Python para automatizar el renombrado,
+ limpieza de metadatos y verificacion de archivos de video
+ en servidores de video.

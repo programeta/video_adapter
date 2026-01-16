@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# Crear el enlace simbólico en /usr/local/bin
+ln -sf /usr/local/lib/video_actions/menu_principal.py /usr/local/bin/video_actions
+
+# Asegurar permisos de ejecución
+chmod +x /usr/local/lib/video_actions/*.py
+chmod +x /usr/local/bin/video_actions
+
+exit 0
